@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/xush_kelibsiz"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/avtorizatsiyadan_o_tish_uchun_telefon_nraqamingizni_kiriting"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/telefon_raqamingiz"
+        android:textColor="#5A5656"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="10dp">
+
+        <EditText
+            android:id="@+id/number"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:layout_marginStart="10dp"
+            android:hint="@string/_998_99_893_54_46"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardsave"
+            android:layout_width="164dp"
+            android:layout_height="44dp"
+            android:backgroundTint="#FCB600"
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/kirish"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/google"
+            android:layout_width="100dp"
+            android:layout_marginStart="70dp"
+            android:layout_height="44dp"
+            android:backgroundTint="#FCB600"
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/google"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

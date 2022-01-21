@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FirebaceAuthorition" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#F8E00C</item>
+        <item name="colorPrimaryVariant">#F8E00C</item>
+        <item name="colorOnPrimary">#F8E00C</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#F8E00C</item>
+        <item name="colorSecondaryVariant">#F8E00C</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

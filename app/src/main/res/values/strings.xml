@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FirebaceAuthorition</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="authorization">Authorization</string>
+    <string name="xush_kelibsiz">Xush kelibsiz</string>
+    <string name="telefon_raqamingiz">Telefon raqamingiz</string>
+    <string name="_998_99_893_54_46">+998 .. … .. ..</string>
+    <string name="kirish">Kirish</string>
+    <string name="avtorizatsiyadan_o_tish_uchun_telefon_nraqamingizni_kiriting">Avtorizatsiyadan o’tish uchun telefon\nraqamingizni kiriting</string>
+    <string name="sms_kodni_kiriting">SMS kodni kiriting</string>
+    <string name="bir_martalik_kod_99_893_461_nraqamiga_yuborildi">Bir martalik kod \nraqamiga yuborildi</string>
+    <string name="sms_kod">SMS kod</string>
+    <string name="_00_60">00:60</string>
+    <string name="yulduz">* * * *</string>
+    <string name="kodni_qayta_olish">Kodni qayta olish</string>
+    <string name="xush_kelibsizlist">Xush kelibsiz!!!</string>
+    <string name="rahmatillo_komiljonov">Ism,Familya</string>
+    <string name="google">Google</string>
+    <string name="client_id">750330206313-v756sp9rdr2fdt9cbj39qoopiisanemm.apps.googleusercontent.com</string>
+    <string name="log_out">Log out</string>
+    <string name="number_user">Number User</string>
+</resources>

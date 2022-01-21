@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.GoogleHome">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rahmatillo_komiljonov"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/profile_image"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/person"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/name"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toRightOf="@id/logout"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/line" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/logout"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="27dp"
+        android:backgroundTint="#F6E124"
+        android:elevation="10dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/google"
+        app:layout_constraintTop_toBottomOf="@id/line">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/log_out"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

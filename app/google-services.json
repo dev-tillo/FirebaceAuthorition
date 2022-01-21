@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "750330206313",
+    "project_id": "firstfirebace",
+    "storage_bucket": "firstfirebace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750330206313:android:6ef2a886f409eea8832af8",
+        "android_client_info": {
+          "package_name": "com.example.firebaceauthorition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750330206313-v756sp9rdr2fdt9cbj39qoopiisanemm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkzh_j3Rpr1pCpm-lVt24uGMOsZwNlDQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750330206313-v756sp9rdr2fdt9cbj39qoopiisanemm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
